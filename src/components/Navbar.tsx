@@ -8,8 +8,7 @@ const NAV_ITEMS = [
   { label: 'Competencies', href: '#competencies' },
   { label: 'Leadership', href: '#leadership' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Gateway', href: '#repo-explorer' },
-  { label: 'Why VSquare', href: '#why-choose-us' },
+  { label: 'Why VSquareThoughts', href: '#why-choose-us' },
 ];
 
 export default function Navbar() {
@@ -24,7 +23,7 @@ export default function Navbar() {
 
       // Simple scrollspy implementation
       const scrollPosition = window.scrollY + 120;
-      const sections = ['about', 'competencies', 'leadership', 'projects', 'repo-explorer', 'why-choose-us', 'contact'];
+      const sections = ['about', 'competencies', 'leadership', 'projects', 'why-choose-us', 'contact'];
 
       for (const sectionId of sections) {
         const el = document.getElementById(sectionId);
@@ -81,7 +80,7 @@ export default function Navbar() {
             <img 
               src="/VSquareThoughts.png" 
               alt="VSquarethoughts" 
-              style={{ width: '300px', height: '70px', objectFit:'fill', transition:'transform var(--transition-fast)'}}
+              style={{ width: '290px', height: '70px', objectFit:'fill', transition:'transform var(--transition-fast)'}}
               referrerPolicy="no-referrer"
             />
           </div> 

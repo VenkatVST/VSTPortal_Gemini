@@ -10,7 +10,6 @@ import About from './components/About';
 import CoreCompetencies from './components/CoreCompetencies';
 import Leadership from './components/Leadership';
 import Projects from './components/Projects';
-import RepoExplorer from './components/RepoExplorer';
 import WhyChooseUs from './components/WhyChooseUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -37,10 +36,7 @@ export default function App() {
 
         {/* Showcased high-end project cases */}
         <Projects />
-
-        {/* Live connected repository gateway */}
-        <RepoExplorer />
-
+ 
         {/* Unique Value Propositions Grid */}
         <WhyChooseUs />
 
